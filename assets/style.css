@@ -8,17 +8,22 @@ body{
     width: 60vh;
     height: 80vh;
     margin: 100px auto 0;
+    padding-left: 50px;
     background:#F6F1EB ;
-    border-top: 2px solid #E0B378;
+    /*border-top: 2px solid #E0B378;*/
+    border-top: 2px solid orange;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
 }
+
 
 header{
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 80%;
-    border: solid red 1px;
-    margin: 20px 0 0 20px;
+    /*border: solid red 1px;*/
+    margin: 20px 0 0 10px;
 }
 
 .avatar{
@@ -29,7 +34,7 @@ header{
 
 .image{
     border-radius: 50%;
-    border: 2px solid red;
+    border: 2px solid orange;
     padding: 3px 3px 0px 3px;
     /*margin: 2px;*/
 }
@@ -40,4 +45,13 @@ header{
 
 .profession{
     font-size: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    gap:15px;
+    margin: 20px 20px 10px 0;
+}
+.hr-line{
+    border-bottom: 2px solid black;
 }
