@@ -14,6 +14,8 @@ body{
 
 header{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     width: 80%;
     border: solid red 1px;
     margin: 20px 0 0 20px;
@@ -21,5 +23,21 @@ header{
 
 .avatar{
     border-radius: 50%;
-    border: 1px solid blue
+    border: 3px solid black;
+    /*margin: 1px;*/
+}
+
+.image{
+    border-radius: 50%;
+    border: 2px solid red;
+    padding: 3px 3px 0px 3px;
+    /*margin: 2px;*/
+}
+.name{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.profession{
+    font-size: 20px;
 }
